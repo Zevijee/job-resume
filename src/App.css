@@ -1,0 +1,92 @@
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+select {
+  padding: 5px;
+  margin: 5px;
+}
+
+#main-div{
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+#projects {
+  display: flex;
+  
+}
+  
+#merge-sort{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#tic-tac-toe{
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+
+.board-row {
+  display: flex;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  color: black;
+}
+
+.box:hover {
+  background-color: #f9f9f9;
+}
+
+.box:focus {
+  outline: none;
+}
+
+.certification {
+  width: 50%;
+  height: auto;
+}
