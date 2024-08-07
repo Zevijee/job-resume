@@ -12,7 +12,7 @@ function App() {
       <hr />
       <h2>Overview</h2>
       <p style={{textAlign: 'center'}}>
-        This site is designed to showcase my skills, experiences, and projects in a clean and user-friendly manner. It is a straightforward React and Vite application deployed on GitHub Pages. You can view the source code <a>here</a>.
+        This site is designed to showcase my skills, experiences, and projects in a clean and user-friendly manner. It is a straightforward React and Vite application deployed on GitHub Pages. You can view the source code <a target='_blank' href='https://github.com/Zevijee/job-resume'>here</a>.
       </p>
       <h2>Resume Projects</h2>
       <div id={'projects'}>
@@ -20,7 +20,7 @@ function App() {
           <div style={{textAlign: 'center', justifyContent: 'center'}}>
             <h5>Visualize sort algorithms.</h5>
             <p>
-              This project is a visualization of the merge sort algorithm. It is built with React. You can view the source code <a>here</a>.
+              This project is a visualization of the merge sort algorithm. It is built with React. You can view the source code <a target='_blank' href='https://github.com/Zevijee/job-resume/tree/main/src/mergeSort'>here</a>.
             </p>
             <VisualizeSort />
           </div>
@@ -28,7 +28,7 @@ function App() {
           <div id={'tic-tac-toe'}>
             <h4>Tic-Tac-Toe</h4>
             <p>
-            This project features a Tic-Tac-Toe game where players can compete against a computer opponent. The frontend is developed using React, while the AI computations are handled by an AWS Lambda function written in Python. You can view the React code <a>here</a> and the Lambda function code <a>here</a>.
+            This project features a Tic-Tac-Toe game where players can compete against a computer opponent. The frontend is developed using React, while the AI computations are handled by an AWS Lambda function written in Python. You can view the React code <a target='_blank' href='https://github.com/Zevijee/job-resume/tree/main/src/tictactoe'>here</a> and the Lambda function code <a>here</a>.
             </p>
             <TTT />
           </div>
