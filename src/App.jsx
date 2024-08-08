@@ -12,7 +12,7 @@ function App() {
       <hr />
       <h2>Overview</h2>
       <p style={{ textAlign: 'center' }}>
-        This site is designed to showcase my skills, experiences, and projects in a clean and user-friendly manner. It is a straightforward React and Vite application deployed on GitHub Pages. You can view the source code <a target='_blank' href='https://github.com/Zevijee/job-resume'>here</a>.
+        This site is designed to showcase my skills, experiences, and projects in a clean and user-friendly manner. It is a straightforward React and Vite application deployed on GitHub Pages. You can view the source code <a target='_blank' href='https://github.com/Zevijee/job-resume'>here</a>. The site is supposed to be viewed on a desktop.
       </p>
       <h2>Resume Projects</h2>
       <div id={'projects'}>
@@ -28,7 +28,7 @@ function App() {
         <div id={'tic-tac-toe'}>
           <h4>Tic-Tac-Toe</h4>
           <p>
-            This project features a Tic-Tac-Toe game where players can compete against a computer opponent. The frontend is developed using React, while the AI computations are handled by an AWS Lambda function written in Python. You can view the React code <a target='_blank' href='https://github.com/Zevijee/job-resume/tree/main/src/tictactoe'>here</a> and the Lambda function code <a target='_blank' href='https://github.com/Zevijee/job-resume/blob/main/TTT.py'>here</a>.
+            This project features a Tic-Tac-Toe game where players can compete against a computer opponent. Just hit a box and wait the computer go next. The frontend is developed using React, while the AI computations are handled by an AWS Lambda function written in Python. You can view the React code <a target='_blank' href='https://github.com/Zevijee/job-resume/tree/main/src/tictactoe'>here</a> and the Lambda function code <a target='_blank' href='https://github.com/Zevijee/job-resume/blob/main/TTT.py'>here</a>.
           </p>
           <TTT />
         </div>
@@ -62,6 +62,7 @@ function App() {
         <li><a target='_blank' href='https://github.com/Zevijee/course-projects/tree/main/cs50%20ai/minesweeper'>Minesweeper</a></li>
         <li><a target='_blank' href='https://github.com/Zevijee/course-projects/blob/main/cs50%20ai/heredity/heredity.py'>Heredity</a></li>
       </ul>
+      <p>This course was the most challenging of the three. It covers Machine Learning, Neural Networks, and Natural Language Processing.</p>
       <h5>Certification</h5>
       <img src={cs50w} className='certification' alt='CS50x Certificate' />
       <hr />

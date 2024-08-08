@@ -1,3 +1,17 @@
+html {
+  transform: scale(1.25);
+  transform-origin: 0 0;
+  width: calc(100% / 1.25);
+  height: calc(100% / 1.25);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 5;
+  padding: 5;
+  background-color: #f9f9f9;
+}
+
 a {
   text-decoration: none;
   color: blue;
