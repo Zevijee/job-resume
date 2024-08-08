@@ -68,7 +68,7 @@ function App() {
       <hr />
       <h2>Professional Experience</h2>
       <h4>Intern/Helpdesk</h4>
-      <p>I interned at a IT company called <a href='https://www.diadnetworks.com/' target='_blank'>Tritech/Diad Networks</a> I worked helpdesk there for almost a year</p>
+      <p>I interned at a IT company called <a href='https://www.diadnetworks.com/' target='_blank'>Tritech / Diad Networks</a> I worked helpdesk there for almost a year</p>
       <h4>Fleelance Web Development</h4>
       <p>I developed custom CRM-like systems for a real estate company called DebtFreeSolutions. This is the most significant project I have worked on. While I cannot share the code as it belongs to the company, I would be happy to demonstrate the product in person.</p>
     </div>
