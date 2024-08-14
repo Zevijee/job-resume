@@ -12,7 +12,7 @@ function App() {
       <hr />
       <h2>Overview</h2>
       <p style={{ textAlign: 'center' }}>
-        This site is designed to showcase my skills, experiences, and projects in a clean and user-friendly manner. It is a straightforward React and Vite application deployed on GitHub Pages. You can view the source code <a target='_blank' href='https://github.com/Zevijee/job-resume'>here</a>. The site is supposed to be viewed on a desktop.
+        This site is designed to showcase my skills, experiences, and projects in a clean and user-friendly manner. It is a straightforward React and Vite application deployed on GitHub Pages. You can view the source code <a target='_blank' href='https://github.com/Zevijee/job-resume'>here</a>.
       </p>
       <h2>Courses/Certifications</h2>
       <h4>CS50's Introduction to Computer Science - <a href='https://cs50.harvard.edu/x/2024' target='_blank'>CS50x</a></h4>
