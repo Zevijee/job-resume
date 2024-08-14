@@ -1,5 +1,4 @@
 import './App.css';
-import VisualizeSort from './mergeSort/VisualizeMain.jsx';
 import TTT from './tictactoe/TTT.jsx';
 import cs50x from './certifications/cs50x.png';
 import cs50w from './certifications/cs50w.png';
