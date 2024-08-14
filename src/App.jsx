@@ -14,25 +14,6 @@ function App() {
       <p style={{ textAlign: 'center' }}>
         This site is designed to showcase my skills, experiences, and projects in a clean and user-friendly manner. It is a straightforward React and Vite application deployed on GitHub Pages. You can view the source code <a target='_blank' href='https://github.com/Zevijee/job-resume'>here</a>. The site is supposed to be viewed on a desktop.
       </p>
-      <h2>Resume Projects</h2>
-      <div id={'projects'}>
-        <div id={'merge-sort'}>
-          <div style={{ textAlign: 'center', justifyContent: 'center' }}>
-            <h5>Visualize sort algorithms.</h5>
-            <p>
-              This project is a visualization of the merge sort algorithm. It is built with React. You can view the source code <a target='_blank' href='https://github.com/Zevijee/job-resume/tree/main/src/mergeSort'>here</a>.
-            </p>
-            <VisualizeSort />
-          </div>
-        </div>
-        <div id={'tic-tac-toe'}>
-          <h4>Tic-Tac-Toe</h4>
-          <p>
-            This project features a Tic-Tac-Toe game where players can compete against a computer opponent. Just hit a box and wait the computer go next. The frontend is developed using React, while the AI computations are handled by an AWS Lambda function written in Python. You can view the React code <a target='_blank' href='https://github.com/Zevijee/job-resume/tree/main/src/tictactoe'>here</a> and the Lambda function code <a target='_blank' href='https://github.com/Zevijee/job-resume/blob/main/TTT.py'>here</a>.
-          </p>
-          <TTT />
-        </div>
-      </div>
       <h2>Courses/Certifications</h2>
       <h4>CS50's Introduction to Computer Science - <a href='https://cs50.harvard.edu/x/2024' target='_blank'>CS50x</a></h4>
       <p>this course goes over the basics of computer science and programming. It covers topics such as algorithms, data structures, and web development.</p>
@@ -58,7 +39,7 @@ function App() {
       <a target='_blank' href='https://github.com/Zevijee/course-projects/tree/main/cs50%20ai'>course projects</a>
       <h5>Noteable Projects:</h5>
       <ul>
-        <li><a target='_blank' href='https://github.com/Zevijee/course-projects/tree/main/cs50%20ai/tictactoe'>Tic-Tac-Toe</a> - This project is the inspiration for the Tic-Tac-Toe project listed above.</li>
+        <li><a target='_blank' href='https://github.com/Zevijee/course-projects/tree/main/cs50%20ai/tictactoe'>Tic-Tac-Toe</a> - This project is the inspiration for the Tic-Tac-Toe project listed below.</li>
         <li><a target='_blank' href='https://github.com/Zevijee/course-projects/tree/main/cs50%20ai/minesweeper'>Minesweeper</a></li>
         <li><a target='_blank' href='https://github.com/Zevijee/course-projects/blob/main/cs50%20ai/heredity/heredity.py'>Heredity</a></li>
       </ul>
@@ -71,6 +52,16 @@ function App() {
       <p>I interned at a IT company called <a href='https://www.diadnetworks.com/' target='_blank'>Tritech / Diad Networks</a> I worked helpdesk there for almost a year</p>
       <h4>Fleelance Web Development</h4>
       <p>I developed custom CRM-like systems for a real estate company called DebtFreeSolutions. This is the most significant project I have worked on. While I cannot share the code as it belongs to the company, I would be happy to demonstrate the product in person.</p>
+      <h2>Resume Project</h2>
+      <div id={'projects'}>
+        <div id={'tic-tac-toe'}>
+          <h4>Tic-Tac-Toe</h4>
+          <p>
+            This project features a Tic-Tac-Toe game where players can compete against a computer opponent. Just hit a box and wait the computer go next. The frontend is developed using React, while the AI computations are handled by an AWS Lambda function written in Python. You can view the React code <a target='_blank' href='https://github.com/Zevijee/job-resume/tree/main/src/tictactoe'>here</a> and the Lambda function code <a target='_blank' href='https://github.com/Zevijee/job-resume/blob/main/TTT.py'>here</a>.
+          </p>
+          <TTT />
+        </div>
+      </div>
     </div>
   );
 }

@@ -21,7 +21,11 @@ function VisualizeSort() {
 
     const resetArray = () => {
         const array = [];
-        for (let i = 0; i < 25; i++) {
+        // get the width of the screen
+        const width = window.innerWidth;
+        console.log(width);        
+
+        for (let i = 0; i < width/60; i++) {
             array.push(30 * i + 30);
         }
         shuffleArray(array);

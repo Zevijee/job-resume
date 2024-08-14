@@ -48,6 +48,7 @@ select {
 
 #projects {
   display: flex;
+  justify-content: center;
   
 }
   
@@ -68,11 +69,6 @@ select {
 
   align-items: center;
   flex-direction: column;
-  width: 50%;
-  border: 1px solid grey;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 10px;
 }
 
 
