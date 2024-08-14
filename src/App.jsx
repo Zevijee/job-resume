@@ -56,7 +56,7 @@ function App() {
         <div id={'tic-tac-toe'}>
           <h4>Tic-Tac-Toe</h4>
           <p>
-            This project features a Tic-Tac-Toe game where players can compete against a computer opponent. Just hit a box and wait the computer go next. The frontend is developed using React, while the AI computations are handled by an AWS Lambda function written in Python. You can view the React code <a target='_blank' href='https://github.com/Zevijee/job-resume/tree/main/src/tictactoe'>here</a> and the Lambda function code <a target='_blank' href='https://github.com/Zevijee/job-resume/blob/main/TTT.py'>here</a>.
+            This project features a Tic-Tac-Toe game where players can compete against a computer opponent. Just hit a box and wait the computer go next. The frontend is developed using React, while the AI computations are handled by an AWS Lambda function written in Python. You can view the React code <a target='_blank' href='https://github.com/Zevijee/job-resume/tree/main/src/tictactoe'>here</a> and the Python code <a target='_blank' href='https://github.com/Zevijee/job-resume/blob/main/TTT.py'>here</a>.
           </p>
           <TTT />
         </div>
