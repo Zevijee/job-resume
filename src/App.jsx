@@ -8,6 +8,8 @@ function App() {
     <div id="main-div">
       <h1 style={{ textAlign: 'center' }}>Pinny Chopp</h1>
       <h2 style={{ textAlign: 'center' }}>Software Developer</h2>
+      <h4 style={{ textAlign: 'center' }}>Phone: <a href="tel:+17327351258">(732) 735-1258</a></h4>
+      <h4 style={{ textAlign: 'center' }}>Email: <a href='mailto:philipchopp02@gmail.com'>philipchopp02@gmail.com</a></h4>
       <hr />
       <h2>Overview</h2>
       <p style={{ textAlign: 'center' }}>
