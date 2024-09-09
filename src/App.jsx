@@ -56,7 +56,7 @@ function App() {
       <p>I interned at a IT company called <a href='https://www.diadnetworks.com/' target='_blank'>Tritech / Diad Networks</a> I worked helpdesk there for almost a year</p>
       <h4>Fleelance Web Development</h4>
       <p>I developed custom CRM-like systems for a real estate company called DebtFreeSolutions. This is the most significant project I have worked on. While I cannot share the code as it belongs to the company, I would be happy to demonstrate the product in person.</p>
-      {/* <h2>Resume Project</h2>
+      <h2>Resume Project</h2>
       <div id={'projects'}>
         <div id={'tic-tac-toe'}>
           <h4>Tic-Tac-Toe</h4>
@@ -65,7 +65,7 @@ function App() {
           </p>
           <TTT />
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
